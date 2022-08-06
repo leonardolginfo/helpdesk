@@ -2,7 +2,7 @@ package br.com.lginfo.helpdesk.domains.enums;
 
 public enum Status {
 
-	AMDIN(0,"ROLE_ADMIN") , CLIENTE(1,"ROLE_CLIENT"), TECNICO(2,"ROLE_TECNICO");
+	ABERTO(0,"ABERTO") , ANDAMENTO(1,"ANDAMENTO"), ENCERRADO(2,"ENCERRADO");
 	
 	private Integer codigo;
 	private String descricao;

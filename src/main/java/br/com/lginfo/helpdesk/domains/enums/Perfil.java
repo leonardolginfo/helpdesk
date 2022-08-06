@@ -2,7 +2,8 @@ package br.com.lginfo.helpdesk.domains.enums;
 
 public enum Perfil {
 
-	BAIXA(0,"BAIXA") , MEDIA(1,"MEDIA"), ALTA(2,"ALTA");
+	ADMIN(0,"ROLE_ADMIN") , CLIENTE(1,"ROLE_CLIENT"), TECNICO(2,"ROLE_TECNICO");
+	
 	
 	private Integer codigo;
 	private String descricao;
@@ -11,7 +12,7 @@ public enum Perfil {
 		this.descricao = descricao;
 	}
 	
-	public Integer getCodigo() {
+	public Integer getCodigo() { 
 		return codigo;
 	}
 	public String getDescricao() {

@@ -2,7 +2,7 @@ package br.com.lginfo.helpdesk.domains.enums;
 
 public enum Prioridade {
 
-	AMDIN(0,"ROLE_ADMIN") , CLIENTE(1,"ROLE_CLIENT"), TECNICO(2,"ROLE_TECNICO");
+	BAIXA(0,"BAIXA") , MEDIA(1,"MEDIA"), ALTA(2,"ALTA");
 	
 	private Integer codigo;
 	private String descricao;
